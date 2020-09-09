@@ -1,19 +1,66 @@
 body {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 400px, 700px;
-  display: block;
-  width: 1440px;
   background-color: hsl(257, 40%, 49%);
   background-image: url(./images/bg-desktop.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.165rem;
+  font-weight: 400;
 }
 
 main {
   display: flex;
   flex-direction: row;
+  color: white;
 }
 
-h3 {
+h1 {
   font-family: 'Open-Sans', sans-serif;
+  font-size: 2rem;
+  width: 24.5rem;
+  margin-right: auto;
+}
+
+header {
+  height: 11.25rem;
+}
+
+footer {
+  height: 6rem;
+}
+
+#logo {
+  margin-top: 3.625rem;
+  margin-left: 4.4375rem;
+  width: 13.25rem;
+  height: 3.75rem;
+}
+
+#mockups {
+  margin-left: 4.4375rem;
+  height: 27.25rem;
+  width: 39.0625rem;
+}
+
+#mockups img {
+  height: 60vh;
+  width: 40.69vw;
+}
+
+#info{
+  margin-top: 2.875rem;
+  margin-left: 3.3125rem;
+  height: 39.0625;
+  width: 28.6875rem;
+}
+
+#register {
+  background-color: white;
+  border-radius: 0.9375rem;
+  font-size: 2.125rem;
+  color: hsl(257, 40%, 49%);
+  height: 3.375rem;
+  width: 11.625rem;
 }
 
 .attribution { 
@@ -21,5 +68,5 @@ h3 {
 }
 
 .attribution a { 
-  color: black; 
+  color: white; 
 }
