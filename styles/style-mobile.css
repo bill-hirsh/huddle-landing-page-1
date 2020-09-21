@@ -31,13 +31,6 @@ h3 {
   text-align: center;
 }
 
-p {
-  text-align: center;
-  width: 90vw;
-  margin: 0 auto;
-  line-height: 1.5;
-}
-
 footer {
   margin-top: 10vh;
   width: 100vw;
@@ -68,6 +61,13 @@ footer {
   height: 64.50vh;
 }
 
+#info p{
+  text-align: center;
+  width: 76vw;
+  margin: 0 auto;
+  line-height: 1.5;
+}
+
 .icon{
   width: 7.46vw;
   height: 3.375vh;
@@ -84,13 +84,13 @@ footer {
 
 #register {
   background-color: white;
-  border-radius: 3.125rem 3.125rem 3.125rem 3.125rem;
+  border-radius: 3.125vh 3.125vh 3.125vh 3.125vh;
   margin: 5vh auto 0vw auto;
-  font-size: 1.0625rem;
+  font-size: 2.125vh;
   color: hsl(257, 40%, 49%);
   text-align: center;
-  width: 50.93vw;
-  height: 5.125vh;
+  width: 56vw;
+  height: 6.125vh;
 }
 
 @media only screen and (min-width: 376px){
@@ -101,8 +101,8 @@ footer {
 
   main {
     height: 69vh;
-
     display: flex;
+    text-align: left;
     flex-direction: row;
   }
 
@@ -117,6 +117,8 @@ footer {
 
   h2 {
     font-size: 5.25vh;
+    margin-block-start: 1.5vw;
+    margin-block-end: 1.5vw;
     text-align: left;
   }
 
@@ -149,9 +151,9 @@ footer {
   }
 
   #info p{
-
+    margin: 0;
     text-align: left;
-    width: 35.76vw;
+    width: 33.5vw;
   }
 
   #icons {
@@ -161,7 +163,7 @@ footer {
   }
 
   #register {
-    margin: 0;
+    margin-top: 1.125vw;
     width: 13.19vw;
     height: 7vh;
   }
