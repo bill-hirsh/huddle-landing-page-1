@@ -33,6 +33,7 @@ h3 {
 
 footer {
   margin-top: 10vh;
+  height: 13vh;
   width: 100vw;
 }
 
@@ -91,6 +92,12 @@ footer {
   text-align: center;
   width: 56vw;
   height: 6.125vh;
+}
+
+#attribution {
+  margin-top: 3vh;
+  text-align: center;
+  height: 3.5vh;
 }
 
 @media only screen and (min-width: 376px){
@@ -166,6 +173,10 @@ footer {
     margin-top: 1.125vw;
     width: 13.19vw;
     height: 7vh;
+  }
+
+  #attribution {
+    text-align: center;
   }
 
 }
